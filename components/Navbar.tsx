@@ -29,18 +29,16 @@ export default function Navbar() {
         scrolled ? "bg-bg/90 backdrop-blur-sm border-b border-border" : ""
       }`}
     >
-      <nav className="max-w-1060px mx-auto px-6 h-14 flex items-center justify-between">
-        {/* Logo */}
+      <nav className="max-w-[1060px] mx-auto px-6 h-14 flex items-center justify-between">
         <a href="#" className="font-mono text-sm font-semibold text-white tracking-tight">
           hawari<span className="text-muted">.</span>
         </a>
 
-        {/* Desktop */}
         <ul className="hidden md:flex items-center gap-7">
           {NAV_LINKS.map((l) => (
             <li key={l.href}>
               
-                <a href={l.href}
+               <a href={l.href}
                 className="font-mono text-xs text-muted hover:text-white transition-colors"
               >
                 {l.label}
@@ -49,7 +47,7 @@ export default function Navbar() {
           ))}
           <li>
             
-             <a href="/resume.pdf"
+           <a href="/resume.pdf"
               target="_blank"
               className="font-mono text-xs px-3 py-1.5 border border-border text-muted hover:border-white hover:text-white rounded-sm transition-all"
             >
@@ -58,7 +56,6 @@ export default function Navbar() {
           </li>
         </ul>
 
-        {/* Mobile toggle */}
         <button
           onClick={() => setOpen((p) => !p)}
           className="md:hidden font-mono text-xs text-muted hover:text-white transition-colors"
@@ -67,7 +64,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile drawer */}
       <AnimatePresence>
         {open && (
           <motion.div

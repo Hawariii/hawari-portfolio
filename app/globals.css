@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+:root {
   /* ── Colors ── */
   --color-bg:      #080808;
   --color-surface: #111111;
@@ -14,20 +14,16 @@
   /* ── Fonts ── */
   --font-sans: var(--font-geist-sans), sans-serif;
   --font-mono: var(--font-geist-mono), monospace;
+}
 
-  /* ── Animations ── */
-  --animate-fade-up: fadeUp 0.5s ease forwards;
-  --animate-blink:   blink 1s step-end infinite;
+@keyframes fadeUp {
+  0%   { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
 
-  @keyframes fadeUp {
-    0%   { opacity: 0; transform: translateY(16px); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50%       { opacity: 0; }
-  }
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
 }
 
 /* ── Base ── */
