@@ -1,0 +1,60 @@
+{
+  "web": [
+    {
+      "id": 1,
+      "title": "ITbantex",
+      "description": "Project industri web app untuk manajemen IT.",
+      "tech": ["Laravel", "PHP", "MySQL"],
+      "github": "https://github.com/Hawariii/ITbantex",
+      "live": "",
+      "image": "/images/itbantex.png"
+    }
+  ],
+  "minecraft": [
+    {
+      "id": 1,
+      "title": "opFishing",
+      "description": "Make fishing in Minecraft overpowered! Catch rare items like enchanted books, diamonds, and more with just a fishing rod.",
+      "type": "Addon",
+      "version": "1.26",
+      "curseforge": "https://www.curseforge.com/minecraft-bedrock/addons/opfishing",
+      "image": "/images/opfishing.png"
+    },
+    {
+      "id": 2,
+      "title": "3D white outline",
+      "description": "Clean 3D white outline textures for Minecraft — gives every block and item a stylish glowing edge!",
+      "type": "Resourcepack",
+      "version": "1.26",
+      "curseforge": "https://www.curseforge.com/minecraft-bedrock/texture-packs/white-3d-outline",
+      "image": "/images/3d-white-outline.png"
+    },
+    {
+      "id":3,
+      "title":"Easy to get elytra",
+      "description":"Elytra is a rare item in Minecraft that allows players to glide through the air. With this addon, you can easily obtain elytra without the usual challenges of finding them in end cities.",
+      "type":"Addon",
+      "version":"1.26",
+      "curseforge":"",
+      "image":"/images/easy-elytra.png"
+    },
+    {
+      "id":4,
+      "title":"X-ray by Aizhu",
+      "description":"",
+      "type":"Resourcepack",
+      "version":"1.26",
+      "curseforge":"",
+      "image":"/images/xray.png"
+    },
+    {
+      "id":5,
+      "title":"Hardcore heart",
+      "description": "",
+      "type":"Resourcepack",
+      "version":"1.26",
+      "curseforge":"",
+      "image":"/images/hardcore-heart.png"
+    }
+  ]
+}
